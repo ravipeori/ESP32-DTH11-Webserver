@@ -1,0 +1,35 @@
+# Arduino IDE generated files
+*.ino.hex
+*.ino.bin
+*.elf
+*.map
+*.eep
+*.lss
+*.su
+*.lst
+*.log
+*.d
+
+# PlatformIO generated files
+.pio/
+.vscode/
+
+# Libraries (if you copy them directly into the sketch folder)
+# Be careful with this, usually libraries are installed globally
+# but if you have a specific version or local copy, you might want to ignore.
+# Eg:
+# lib/
+
+# IDE and OS specific files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.swp
+
+# Sensitive data (YOUR WIFI CREDENTIALS!)
+# You MUST comment out or delete your actual WiFi credentials before pushing.
+# A better approach is to move them to a separate file that IS gitignored.
+# For now, manually ensure they are not in the main sketch for public repos.
+secrets.h
+config.h
